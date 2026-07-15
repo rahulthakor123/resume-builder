@@ -33,7 +33,7 @@ const ExperienceForm = ({ data, onChange }) => {
 
   const generateDescription = async (index) => {
     setGeneratingIndex(index);
-
+    
     const experience = data[index];
 
        if (!experience.company || !experience.position) {
